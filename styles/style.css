@@ -113,6 +113,9 @@ header
 .info .info_box .info_box_btn{
     color: var(--secondary-color);
     padding: 8px 4px;
+    background-color: white;
+    width: 120px;
+    cursor: pointer;
 }
 
 
