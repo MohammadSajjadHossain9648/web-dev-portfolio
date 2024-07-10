@@ -92,10 +92,10 @@ header
     margin: 15px 0;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
 }
 .info .info_box .info_box_content2{
-    width: 50%;
+    width: 420px;
+    margin-right: 220px;
 }
 
 .info .info_box .info_box_content1 img{
@@ -114,3 +114,5 @@ header
     color: var(--secondary-color);
     padding: 8px 4px;
 }
+
+
