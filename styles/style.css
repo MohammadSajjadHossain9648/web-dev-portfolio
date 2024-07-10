@@ -31,6 +31,7 @@
 .description{
     color: var(--secondary-color);
     margin: 24px 0;
+    padding: 0 40px;
     text-align: center;
 }
 
@@ -119,9 +120,6 @@ header
 .inspiration{
     height: 600px;
 }
-.inspiration .description{
-    padding: 10px 80px;
-}
 .inspiration .inspiration_audio{
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
@@ -131,3 +129,47 @@ header
     text-align: center;
     border-radius: 16px;
 }
+
+
+/* my current target part */
+.curr_target{
+    height: 400px;
+}
+.curr_target .description{
+    padding: 0 100px;
+}
+.curr_target .curr_target_box{
+    width: 25%;
+    height: 250px;
+    padding: 30px;
+}
+
+.curr_target .curr_target_bg1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.curr_target .curr_target_bg2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.curr_target .curr_target_bg3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.curr_target .curr_target_box .curr_box_title{
+    padding: 10px;
+}
+.curr_target .curr_target_box .curr_box_description{
+    padding: 10px;
+}
+.curr_target .curr_target_box .curr_target_button{
+    padding: 10px;
+}
+.curr_target .curr_target_box .curr_target_button a{
+    color: var(--primary-color);
+}
+
+.curr_target .curr_target_box_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
