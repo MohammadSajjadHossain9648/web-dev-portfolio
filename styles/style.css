@@ -16,8 +16,9 @@
 .font{
     font-family: "Azeret Mono", monospace;
 }
-.content_center{
-    text-align: center;
+.out_spacing{
+    margin: 80px 120px;
+    padding: 40px 50px;
 }
 .btn{
     border-radius: 8px;
@@ -81,8 +82,6 @@ header
 .info{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    margin: 80px 120px;
-    padding: 40px 50px;
 }
 .info .info_box{
     background-color: white;
@@ -116,3 +115,19 @@ header
 }
 
 
+/* inspiration part */
+.inspiration{
+    height: 600px;
+}
+.inspiration .description{
+    padding: 10px 80px;
+}
+.inspiration .inspiration_audio{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 20px;
+}
+.inspiration iframe{
+    text-align: center;
+    border-radius: 16px;
+}
