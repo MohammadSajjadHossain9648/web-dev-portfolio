@@ -117,9 +117,6 @@ header
 
 
 /* inspiration part */
-.inspiration{
-    height: 600px;
-}
 .inspiration .inspiration_audio{
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
@@ -132,11 +129,8 @@ header
 
 
 /* my current target part */
-.curr_target{
-    height: 400px;
-}
 .curr_target .description{
-    padding: 0 100px;
+    padding: 0 100px 30px;
 }
 .curr_target .curr_target_box{
     width: 25%;
@@ -173,3 +167,30 @@ header
 }
 
 
+
+/* my next target part */
+.next_target .next_target_description{
+    padding: 0 120px 30px;
+}
+.next_target .next_target_box .next_box_title{
+padding: 10px;
+}
+.next_target .next_target_box .next_box_description{
+    padding: 10px;
+}
+.next_target .next_target_box .next_box_button{
+    padding: 10px;
+}
+.next_target .next_target_box .next_box_button a{
+    color: var(--primary-color);
+}
+
+.next_target .next_target_box{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    margin-bottom: 15px;
+    padding: 30px;
+}
